@@ -21,4 +21,12 @@ describe("The question list", ()=>{
     afterAll(()=>{
         console.log("After all!");
     });
+
+    it.only("should display a list of items", ()=>{  //Isolate test
+        expect(40 + 2).toEqual(42);
+      });
+
+    it.skip ("should be the meaning of life", ()=>{ //Skip Test
+        expect(40 + 2).toEqual(43);
+    });
 });
