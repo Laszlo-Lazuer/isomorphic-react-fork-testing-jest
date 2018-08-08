@@ -1,8 +1,9 @@
 import { handleFetchQuestion } from './fetch-question-saga';
 import fetch from 'isomorphic-fetch';
 
-describe("Fetch questions saga", () =>{
+//Implement Spies (Mocks)
 
+describe("Fetch questions saga", () =>{
     beforeAll(()=>{
         fetch.__setValue([{question_id:42}]);
     });
