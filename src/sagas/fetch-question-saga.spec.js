@@ -1,4 +1,6 @@
 import { handleFetchQuestion } from './fetch-question-saga';
+import { handleFetchQuestion } from './fetch-question-saga';
+ import { handleFetchQuestion } from './fetch-question-saga';
 import fetch from 'isomorphic-fetch';
 
 //Implement Spies (Manual Mock)
