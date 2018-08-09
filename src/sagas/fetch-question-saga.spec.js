@@ -1,7 +1,7 @@
 import { handleFetchQuestion } from './fetch-question-saga';
 import fetch from 'isomorphic-fetch';
 
-//Implement Spies (Mocks)
+//Implement Spies (Manual Mock)
 
 describe("Fetch questions saga", () =>{
     beforeAll(()=>{
